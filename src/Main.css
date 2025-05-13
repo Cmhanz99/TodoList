@@ -113,3 +113,17 @@
     text-decoration: line-through;
     color: #555;
 }
+
+@media screen and (max-width:360px) {
+    .header_app {
+        width:  300px;
+    }
+
+    .body_app {
+        height: auto;
+    }
+
+    .todo_actions {
+        width: 35%;
+    }
+}
